@@ -11,7 +11,7 @@ proton.login(username, password)
 # Create a message
 new_message = proton.create_message(
     recipients=["somegmail@gmail.com"],
-    subject="Test Email from Python",
+    subject="Test email from Python",
     body="Hello, this is a test email sent using Python on pc without Proton Mail Bridge. ;p"
 )
 
